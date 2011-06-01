@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:osm_svg/osm_svg.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:osm_db/osm_db.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:osmconc/osmconc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:osmconvert/osmconvert.xcodeproj">
+   </FileRef>
+</Workspace>
