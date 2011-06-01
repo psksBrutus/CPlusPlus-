@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FD42A9F13969E31009E1E99 /* ConvertController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD42A9713969E31009E1E99 /* ConvertController.cpp */; };
+		1FD42AA013969E31009E1E99 /* OSMObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD42A9913969E31009E1E99 /* OSMObject.cpp */; };
+		1FD42AA113969E31009E1E99 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD42A9B13969E31009E1E99 /* Plugin.cpp */; };
+		1FD42AA213969E31009E1E99 /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FD42A9D13969E31009E1E99 /* XMLParser.cpp */; };
 		D0A5483513969AE5002CAF7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0A5483413969AE5002CAF7D /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1FD42A9613969E31009E1E99 /* ConvertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertController.h; sourceTree = "<group>"; };
+		1FD42A9713969E31009E1E99 /* ConvertController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConvertController.cpp; sourceTree = "<group>"; };
+		1FD42A9813969E31009E1E99 /* imports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imports.h; sourceTree = "<group>"; };
+		1FD42A9913969E31009E1E99 /* OSMObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OSMObject.cpp; sourceTree = "<group>"; };
+		1FD42A9A13969E31009E1E99 /* OSMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSMObject.h; sourceTree = "<group>"; };
+		1FD42A9B13969E31009E1E99 /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin.cpp; sourceTree = "<group>"; };
+		1FD42A9C13969E31009E1E99 /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plugin.h; sourceTree = "<group>"; };
+		1FD42A9D13969E31009E1E99 /* XMLParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLParser.cpp; sourceTree = "<group>"; };
+		1FD42A9E13969E31009E1E99 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
 		D0A5483013969AE5002CAF7D /* osmconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = osmconvert; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A5483413969AE5002CAF7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D0A5483613969AE5002CAF7D /* osmconvert.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = osmconvert.1; sourceTree = "<group>"; };
@@ -58,6 +71,15 @@
 		D0A5483313969AE5002CAF7D /* osmconvert */ = {
 			isa = PBXGroup;
 			children = (
+				1FD42A9613969E31009E1E99 /* ConvertController.h */,
+				1FD42A9713969E31009E1E99 /* ConvertController.cpp */,
+				1FD42A9813969E31009E1E99 /* imports.h */,
+				1FD42A9913969E31009E1E99 /* OSMObject.cpp */,
+				1FD42A9A13969E31009E1E99 /* OSMObject.h */,
+				1FD42A9B13969E31009E1E99 /* Plugin.cpp */,
+				1FD42A9C13969E31009E1E99 /* Plugin.h */,
+				1FD42A9D13969E31009E1E99 /* XMLParser.cpp */,
+				1FD42A9E13969E31009E1E99 /* XMLParser.h */,
 				D0A5483413969AE5002CAF7D /* main.cpp */,
 				D0A5483613969AE5002CAF7D /* osmconvert.1 */,
 			);
@@ -112,6 +134,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A5483513969AE5002CAF7D /* main.cpp in Sources */,
+				1FD42A9F13969E31009E1E99 /* ConvertController.cpp in Sources */,
+				1FD42AA013969E31009E1E99 /* OSMObject.cpp in Sources */,
+				1FD42AA113969E31009E1E99 /* Plugin.cpp in Sources */,
+				1FD42AA213969E31009E1E99 /* XMLParser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +217,7 @@
 				D0A5483B13969AE5002CAF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
