@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  OSMConvert
+//  osmconvert
 //
 //  Created by Peter Glenewinkel on 01.06.11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.

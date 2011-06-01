@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D05711EF139684BE003411F2"
-               BuildableName = "OSMConvert"
-               BlueprintName = "OSMConvert"
-               ReferencedContainer = "container:OSMConvert.xcodeproj">
+               BlueprintIdentifier = "D0734EF713968C7700DAF35C"
+               BuildableName = "osmconvert"
+               BlueprintName = "osmconvert"
+               ReferencedContainer = "container:osmconvert.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,10 +40,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D05711EF139684BE003411F2"
-            BuildableName = "OSMConvert"
-            BlueprintName = "OSMConvert"
-            ReferencedContainer = "container:OSMConvert.xcodeproj">
+            BlueprintIdentifier = "D0734EF713968C7700DAF35C"
+            BuildableName = "osmconvert"
+            BlueprintName = "osmconvert"
+            ReferencedContainer = "container:osmconvert.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -59,10 +59,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D05711EF139684BE003411F2"
-            BuildableName = "OSMConvert"
-            BlueprintName = "OSMConvert"
-            ReferencedContainer = "container:OSMConvert.xcodeproj">
+            BlueprintIdentifier = "D0734EF713968C7700DAF35C"
+            BuildableName = "osmconvert"
+            BlueprintName = "osmconvert"
+            ReferencedContainer = "container:osmconvert.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

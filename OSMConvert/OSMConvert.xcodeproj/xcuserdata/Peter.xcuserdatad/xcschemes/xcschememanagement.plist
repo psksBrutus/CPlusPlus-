@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>OSMConvert.xcscheme</key>
+		<key>osmconvert.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>D05711EF139684BE003411F2</key>
+		<key>D0734EF713968C7700DAF35C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

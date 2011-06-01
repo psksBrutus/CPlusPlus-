@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D05711F5139684BE003411F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D05711F4139684BE003411F2 /* main.cpp */; };
+		D0734EFD13968C7700DAF35C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0734EFC13968C7700DAF35C /* main.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D057121713968510003411F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D05712131396850F003411F2 /* osmconc.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D05712071396850F003411F2;
-			remoteInfo = osmconc;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		D05711EE139684BE003411F2 /* CopyFiles */ = {
+		D0734EF613968C7700DAF35C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,14 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D05711F0139684BE003411F2 /* OSMConvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSMConvert; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05711F4139684BE003411F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D05711F6139684BE003411F2 /* OSMConvert.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OSMConvert.1; sourceTree = "<group>"; };
-		D05712131396850F003411F2 /* osmconc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = osmconc.xcodeproj; path = ../osmconc/osmconc.xcodeproj; sourceTree = "<group>"; };
+		D0734EF813968C7700DAF35C /* osmconvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = osmconvert; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0734EFC13968C7700DAF35C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D0734EFE13968C7700DAF35C /* osmconvert.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = osmconvert.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D05711ED139684BE003411F2 /* Frameworks */ = {
+		D0734EF513968C7700DAF35C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,111 +39,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D05711E5139684BE003411F2 = {
+		D0734EED13968C7700DAF35C = {
 			isa = PBXGroup;
 			children = (
-				D05711F3139684BE003411F2 /* OSMConvert */,
-				D05711F1139684BE003411F2 /* Products */,
-				D05712131396850F003411F2 /* osmconc.xcodeproj */,
+				D0734EFB13968C7700DAF35C /* osmconvert */,
+				D0734EF913968C7700DAF35C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D05711F1139684BE003411F2 /* Products */ = {
+		D0734EF913968C7700DAF35C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D05711F0139684BE003411F2 /* OSMConvert */,
+				D0734EF813968C7700DAF35C /* osmconvert */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D05711F3139684BE003411F2 /* OSMConvert */ = {
+		D0734EFB13968C7700DAF35C /* osmconvert */ = {
 			isa = PBXGroup;
 			children = (
-				D05711F4139684BE003411F2 /* main.cpp */,
-				D05711F6139684BE003411F2 /* OSMConvert.1 */,
+				D0734EFC13968C7700DAF35C /* main.cpp */,
+				D0734EFE13968C7700DAF35C /* osmconvert.1 */,
 			);
-			path = OSMConvert;
-			sourceTree = "<group>";
-		};
-		D05712141396850F003411F2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D057121813968510003411F2 /* osmconc */,
-			);
-			name = Products;
+			path = osmconvert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D05711EF139684BE003411F2 /* OSMConvert */ = {
+		D0734EF713968C7700DAF35C /* osmconvert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D05711F9139684BE003411F2 /* Build configuration list for PBXNativeTarget "OSMConvert" */;
+			buildConfigurationList = D0734F0113968C7700DAF35C /* Build configuration list for PBXNativeTarget "osmconvert" */;
 			buildPhases = (
-				D05711EC139684BE003411F2 /* Sources */,
-				D05711ED139684BE003411F2 /* Frameworks */,
-				D05711EE139684BE003411F2 /* CopyFiles */,
+				D0734EF413968C7700DAF35C /* Sources */,
+				D0734EF513968C7700DAF35C /* Frameworks */,
+				D0734EF613968C7700DAF35C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OSMConvert;
-			productName = OSMConvert;
-			productReference = D05711F0139684BE003411F2 /* OSMConvert */;
+			name = osmconvert;
+			productName = osmconvert;
+			productReference = D0734EF813968C7700DAF35C /* osmconvert */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D05711E7139684BE003411F2 /* Project object */ = {
+		D0734EEF13968C7700DAF35C /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = D05711EA139684BE003411F2 /* Build configuration list for PBXProject "OSMConvert" */;
+			buildConfigurationList = D0734EF213968C7700DAF35C /* Build configuration list for PBXProject "osmconvert" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D05711E5139684BE003411F2;
-			productRefGroup = D05711F1139684BE003411F2 /* Products */;
+			mainGroup = D0734EED13968C7700DAF35C;
+			productRefGroup = D0734EF913968C7700DAF35C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = D05712141396850F003411F2 /* Products */;
-					ProjectRef = D05712131396850F003411F2 /* osmconc.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				D05711EF139684BE003411F2 /* OSMConvert */,
+				D0734EF713968C7700DAF35C /* osmconvert */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		D057121813968510003411F2 /* osmconc */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = osmconc;
-			remoteRef = D057121713968510003411F2 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		D05711EC139684BE003411F2 /* Sources */ = {
+		D0734EF413968C7700DAF35C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D05711F5139684BE003411F2 /* main.cpp in Sources */,
+				D0734EFD13968C7700DAF35C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D05711F7139684BE003411F2 /* Debug */ = {
+		D0734EFF13968C7700DAF35C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -172,7 +136,7 @@
 			};
 			name = Debug;
 		};
-		D05711F8139684BE003411F2 /* Release */ = {
+		D0734F0013968C7700DAF35C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
@@ -186,7 +150,7 @@
 			};
 			name = Release;
 		};
-		D05711FA139684BE003411F2 /* Debug */ = {
+		D0734F0213968C7700DAF35C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +161,7 @@
 			};
 			name = Debug;
 		};
-		D05711FB139684BE003411F2 /* Release */ = {
+		D0734F0313968C7700DAF35C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,24 +175,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D05711EA139684BE003411F2 /* Build configuration list for PBXProject "OSMConvert" */ = {
+		D0734EF213968C7700DAF35C /* Build configuration list for PBXProject "osmconvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D05711F7139684BE003411F2 /* Debug */,
-				D05711F8139684BE003411F2 /* Release */,
+				D0734EFF13968C7700DAF35C /* Debug */,
+				D0734F0013968C7700DAF35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D05711F9139684BE003411F2 /* Build configuration list for PBXNativeTarget "OSMConvert" */ = {
+		D0734F0113968C7700DAF35C /* Build configuration list for PBXNativeTarget "osmconvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D05711FA139684BE003411F2 /* Debug */,
-				D05711FB139684BE003411F2 /* Release */,
+				D0734F0213968C7700DAF35C /* Debug */,
+				D0734F0313968C7700DAF35C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D05711E7139684BE003411F2 /* Project object */;
+	rootObject = D0734EEF13968C7700DAF35C /* Project object */;
 }
